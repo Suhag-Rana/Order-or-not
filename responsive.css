@@ -116,6 +116,56 @@
     }
 }
 
+@media only screen and (max-width: 400px){
+    .top-header{
+        padding: 5px;
+    }
+    .top-header-btn a{
+        font-size: 8px;
+        font-weight: 400;
+        padding: 2px 5px;
+    }
+    .contact .icons {
+        margin: 0px 0px;
+    }
+    
+    .contact a{
+        font-size: 12px;
+    }
+    .contact .fa-location-dot{
+        margin: 0px 2px;
+        font-size: 12px;
+        
+    }
+    .contact .fa-phone{
+        margin: 0px 2px;
+        font-size: 12px;
+    }
+    .contact .fa-envelope{
+        margin: 0px 2px;
+        font-size: 12px;
+    }
+    .logo img{
+        height: 20px;
+        width: 25px;
+        margin-right: 10px;
+    }
+
+    .icons .searchbutton{
+        
+        height: 2px;
+        width: 2px;
+    }
+    .social-icons{
+        font-size: 16px;
+    }
+    .mobile-icon .fa-bars{
+        font-size: 22px;
+        margin-right: 13px;
+    }
+}
+
+
 /* do later
 
 @media only screen and (max-width: 1386px) {
@@ -279,6 +329,25 @@ do later */
     .simple-header h1{
         font-size: 24px;
         font-weight: 600;
+    }
+}
+@media only screen and (max-width: 400px){
+    .ayat{
+        width: 85vw;
+        display: flex;
+        justify-content: center;
+        padding: 0px 8px;
+    }
+    .ayat p{
+        font-size: 12px;
+        padding: 2px 0px;
+    }
+    .ayat span{
+        font-size: 10px;
+        padding: 0px;
+    }
+    .simple-header h1{
+        font-size: 18px;
     }
 }
 
@@ -463,6 +532,39 @@ do later */
     
 }
 
+@media only screen and (max-width: 400px){
+    .radius-box{
+        display: flex;
+        flex-direction: column-reverse;
+        background: #fff;
+    }
+    .radius-box .heading{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .radius-box h1{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .radius-box .input-field{
+        display: flex;
+        flex-direction: column;
+        width: 80vw;
+        margin: 20px auto;
+    }
+    .radius-box input{
+        padding: 10px 20px;
+    }
+    .button button{
+        padding: 5px 30px;
+        font-size: 14px;
+    }
+    .button:hover{
+        background-color: #fff;
+    }
+}
+
 .left-div {
     display: flex;
 }
@@ -590,6 +692,21 @@ do later */
         color: #18AC9A;
         
     }
+    @media screen and (max-width: 400px) {
+        .up-fotter p{
+            font-size: 10px;
+        }
+        .up-footer h4{
+            font-size: 14px;
+        }
+        .up-footer h3{
+            font-size: 14px;
+        }
+        .up-footer .logo-image{
+            height: 90px;
+            width: 90px;
+        }
+    }
 }
 
 /* up footer css code end */
@@ -620,6 +737,16 @@ do later */
 @media only screen and (max-width: 600px){
     footer p{
         font-size: 14px;
+        margin-left: 0%;
+        font-weight: 400;
+        text-align: center;
+
+    }
+}
+
+@media only screen and (max-width: 400px){
+    footer p{
+        font-size: 10px;
         margin-left: 0%;
         font-weight: 400;
         text-align: center;
@@ -808,6 +935,29 @@ do later */
     }
     .menu {
         flex: 1;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    .new-card{
+        min-height: 90vh;
+    }
+    .card-top h2{
+        font-size: 20px;
+    }
+    .text-section p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .colored-text{
+        margin: 0px;
+    }
+    .normal-text{
+        margin: 0px;
+    }
+    .card-btn-section .card-btn{
+        font-size: 12px;
+        margin-top: 30px;
     }
 }
 /* new card section code end  */
